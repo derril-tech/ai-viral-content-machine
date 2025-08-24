@@ -1,0 +1,79 @@
+# Created automatically by Cursor AI (2024-08-24)
+# Python Workers dependencies for Viral Content Machine
+
+# Core dependencies
+celery==5.3.4
+redis==5.0.1
+nats-py==2.6.0
+
+# AI/ML & Content Generation
+openai==1.3.7
+anthropic==0.7.8
+replicate==0.22.0
+stability-sdk==0.8.4
+
+# Image Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+pgvector==0.2.4
+
+# HTTP & API
+httpx==0.25.2
+aiohttp==3.9.1
+requests==2.31.0
+
+# Object Storage
+boto3==1.34.0
+minio==7.2.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.25.2
+
+# Text Processing
+nltk==3.8.1
+spacy==3.7.2
+textblob==0.17.1
+
+# Social Media APIs
+tweepy==4.14.0
+python-linkedin-v2==0.8.6
+facebook-sdk==3.1.0
+
+# Notion & Google APIs
+notion-client==2.2.1
+google-api-python-client==2.108.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+
+# Monitoring & Observability
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+prometheus-client==0.19.0
+structlog==23.2.0
+
+# Configuration & Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Utilities
+tenacity==8.2.3
+click==8.1.7
+rich==13.7.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Development
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
